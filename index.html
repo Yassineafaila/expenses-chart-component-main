@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- --------link-font-google-------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <!-- -----------Start-main-------------------- -->
+    <main>
+      <div class="card__balance">
+        <div class="balance">
+          <span>My balance</span>
+          <p>$921.48</p>
+        </div>
+        <img src="/images/logo.svg" alt="mastercard" />
+      </div>
+      <div class="calendrier">
+        <h1>Spending - Last 7 days</h1>
+        <div class="graph">
+          <div class="row">
+            <button class="mon" data-amount="mon" data-day="mon"></button>
+            <button class="tue" data-amount="tue" data-day="tue"></button>
+            <button class="wed" data-amount="wed" data-day="wed"></button>
+            <button class="thu" data-amount="thu" data-day="thu"></button>
+            <button class="fri" data-amount="fri" data-day="fri"></button>
+            <button class="sat" data-amount="sat" data-day="sat"></button>
+            <button class="sun" data-amount="sun" data-day="sun"></button>
+          </div>
+          <div class="second_row">
+            <div>mon</div>
+            <div>tue</div>
+            <div>wed</div>
+            <div>thu</div>
+            <div>fri</div>
+            <div>sat</div>
+            <div>sun</div>
+          </div>
+        </div>
+        <div class="calendrier__card">
+          <div class="earn">
+            <span>Total this month</span>
+            <p>$478.33</p>
+          </div>
+          <div class="pourcentage">
+            <span>+2.4%</span>
+            <p>from last month</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
